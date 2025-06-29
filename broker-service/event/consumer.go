@@ -64,7 +64,7 @@ func (consumer *Consumer) Listen(topics []string) error {
 		)
 
 		if err != nil {
-			return nil
+			return err
 		}
 	}
 
